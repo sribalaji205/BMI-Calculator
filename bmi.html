@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BMI CALCULATOR</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<p style="text-align:center; color:black; font-weight:bold; font-size:22px;">BODY MASS INDEX CALCULATOR</p>
+<form>
+<div class="calci">
+<div class="text">
+<label for="height">HEIGHT: &nbsp</label><br>
+<input style="text-align:center;" id="height" type="text" required /><br>
+<label for="height">WEIGHT:</label><br>
+<input style="text-align:center;" id="weight" type="text" required/><br>
+<label for="height">AGE: &nbsp &nbsp &nbsp &nbsp</label><br>
+<input style="text-align:center;" id="age" type="text" required /><br>
+</div>
+<div id=ab>
+<label for="gender" >GENDER:</label><br>
+<div id="a">
+<label for="men">MALE</label>
+<input type="radio" name="gender"  id="men" /> 
+<label for="women">FEMALE</label>
+<input type="radio" name="gender" id="women"/><br>
+<button type="button" onclick="bmical()">CALCULATE</button>
+<button style="padding:7px 28px;"type="reset" onclick="clearall()">CLEAR</button>
+</div>
+</div>
+</div>
+</form>
+<div id="res">
+<p><span id="result"></span></p>
+<span id="BMI"></span>
+<div class="qwe">
+<p> <span style="margin-left:0%;" id="indicator"></span> </p>
+<img style="visibility:hidden;" id="image" src="bmi-adult.png">
+</div>
+<p><span id="bfat"></span></p>
+</div>
+</body>
+<script type="text/javascript" src="bodymass.js"></script>
+</html>

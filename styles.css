@@ -1,0 +1,68 @@
+body{
+width:480px;
+margin:auto;
+color:white;
+background-color:white;
+font-size:18px;
+}
+.calci{
+position:relative;
+width:auto;
+background-color:grey;
+padding:10px 0px;
+font-weight:bold;
+border:10px solid black;
+border-radius:12px;
+}
+.qwe{
+width:100%;
+}
+button{
+padding:7px 12px;
+font-weight:bold;
+background-color:black;
+color:white;
+margin-top:1%;
+margin-right:3%;
+border:3px solid white;
+border-radius:7px;
+}
+img{
+height:10%;
+margin:0% 15%;
+}
+.text{
+margin:0% 20%;
+}
+.text input{
+width:50%;
+margin-top:5px;
+padding:6px 15px;
+border:3px solid black;
+border-radius:5px;
+text-align:center;
+font-weight:bold;
+}
+#a{
+margin-top:1%;
+}
+#res{
+color:black;
+margin-top:5px;
+border:0px;
+border-radius:0px;
+font-weight:bold;
+}
+#ab{
+margin:0% 20%;
+font-size:18px;
+}
+#result{
+margin-left:2%;
+}
+#BMI{
+margin-left:2%;
+}
+#bfat{
+margin-left:2%;
+}
